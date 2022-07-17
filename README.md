@@ -21,8 +21,12 @@ go get github.com/ClownChu/riotapi
 <h2 id="making-api-calls" align="center">Making API calls</h2>
 
 ```go
+import (
+    riotApi "github.com/ClownChu/riotapi/client"
+)
+
 apiKey := `RGAPI-f90d223b-9f91-48d0-b9e2-2ff146c6b7e4`
-testClient, _ := NewRiotApiClient(apiKey, `NA1`)
+testClient, _ := riotApi.NewRiotApiClient(apiKey, `NA1`)
 summonerApi := summoner.NewSummonerApi(testClient)
 summonerData, _ := summonerApi.ByName("ClownChu")
 ```
