@@ -1,9 +1,10 @@
 package test
 
 import (
-	"riotapi/api/lol/summoner"
-	"riotapi/client"
 	"testing"
+
+	"github.com/ClownChu/riotapi/api/lol/summoner"
+	"github.com/ClownChu/riotapi/client"
 )
 
 var testClient *client.RiotApiClient

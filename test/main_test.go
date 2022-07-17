@@ -2,8 +2,9 @@ package test
 
 import (
 	"os"
-	"riotapi/client"
 	"testing"
+
+	"github.com/ClownChu/riotapi/client"
 )
 
 var testClient *client.RiotApiClient

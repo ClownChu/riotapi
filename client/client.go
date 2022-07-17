@@ -8,8 +8,9 @@ import (
 	"net/http"
 	"net/url"
 	"os"
-	"riotapi/api/riot"
 	"time"
+
+	"github.com/ClownChu/riotapi/api/riot"
 
 	"github.com/throttled/throttled/store/memstore"
 	"github.com/throttled/throttled/v2"

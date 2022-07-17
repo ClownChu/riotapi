@@ -1,4 +1,4 @@
-module riotapi
+module github.com/ClownChu/riotapi
 
 go 1.18
 

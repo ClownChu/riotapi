@@ -13,7 +13,7 @@
 <h2 id="get-in-go" align="center">Get in go</h2>
 
 ```bash
-go get https://github.com/ClownChu/riotapi
+go get github.com/ClownChu/riotapi
 ```
 
 <hr>
@@ -21,10 +21,10 @@ go get https://github.com/ClownChu/riotapi
 <h2 id="making-api-calls" align="center">Making API calls</h2>
 
 ```go
-    apiKey := `RGAPI-f90d223b-9f91-48d0-b9e2-2ff146c6b7e4`
-	testClient, _ := NewRiotApiClient(apiKey, `NA1`)
-	summonerApi := summoner.NewSummonerApi(testClient)
-	summonerData, _ := summonerApi.ByName("ClownChu")
+apiKey := `RGAPI-f90d223b-9f91-48d0-b9e2-2ff146c6b7e4`
+testClient, _ := NewRiotApiClient(apiKey, `NA1`)
+summonerApi := summoner.NewSummonerApi(testClient)
+summonerData, _ := summonerApi.ByName("ClownChu")
 ```
 
 <hr>

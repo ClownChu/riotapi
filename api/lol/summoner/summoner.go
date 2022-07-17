@@ -1,8 +1,8 @@
 package summoner
 
 import (
-	"riotapi/api/riot"
-	"riotapi/client"
+	"github.com/ClownChu/riotapi/api/riot"
+	"github.com/ClownChu/riotapi/client"
 )
 
 // Platform struct describes a Riot Platform

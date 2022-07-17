@@ -1,9 +1,10 @@
 package test
 
 import (
-	"riotapi/api/riot"
-	"riotapi/client"
 	"testing"
+
+	"github.com/ClownChu/riotapi/api/riot"
+	"github.com/ClownChu/riotapi/client"
 )
 
 var testClient *client.RiotApiClient
